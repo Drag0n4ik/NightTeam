@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<meta charset='utf-8'>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Тестовый однстраничный сайт</title>
+
+	<link rel="stylesheet" type="text/css" href="Css/style.css" />
+	<link rel="stylesheet" type="text/css" href="Css/jquery.fullPage.css" />
+	
+	<script type="text/javascript" src="Js/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="Js/jquery.fullPage.js"></script>
+	<script type="text/javascript" src="Js/jquery.slimscroll.min.js"></script>
+	
+	<style>
+		#section2 img {
+			left:130%;
+			position:relative;
+		}
+		#section2 p, #section2 h1{
+			display:none;
+		}
+		
+	</style>
+
+</head>
+
+<script>
+	jQuery(document).ready(function($) {
+		$("#fullpage").fullpage({
+			sectionsColor:['black','black','black'],
+			anchors:['firstPage','secondPage','3rdPage'],
+			menu:'#menu',
+			scrollBar:false,
+			
+			navigationTooltips:['Секция 1','Секция 2','Секция 3'],
+			scrollOverflow:true,
+			
+			loopTop:true,
+			loopBottom:true,
+			loopHorizontal:false,
+			
+
+			afterLoad:function(link,index) {
+				
+				if(index == 3) {
+					$("#section2 img").delay(2000).animate({'left':'0%'},2000);
+				}
+				if(link == '3rdPage') {
+					$("#section2 h1").fadeIn(1500,function() {
+						$("#section2 p").css({'display':'block'}).animate({'fontSize':'8em'},1000)
+					});
+				}
+				
+			}
+			
+		});
+	})
+</script>
+<body>
+
+<ul id="menu">
+	<li data-menuanchor="firstPage"><a href="#firstPage">Night Team</a></li>
+	<li data-menuanchor="secondPage"><a href="#secondPage">Помощь 1</a></li>
+	<li data-menuanchor="3rdPage"><a href="#3rdPage">Помощь 2</a></li>
+</ul>
+
+<div id="fullpage">
+	<div class="section " id="section0">
+		<div class="intro">
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<h1>Night Team ID 2089 - Вступайте в наши ряды </h1>
+			<h2>Башня 311 уровня - 31.1% к силе </h2>
+			<h3>наш эпик который был 13 сентября 2019 года и его результаты </h3>
+					<body bgcolor="#000000">
+		<center>
+			<img src="http://mira-play.com/fantasy/units/unit636_L1.png">
+			<br/>
+			<b>Здоровье: 3 350 000 000 000</b>
+			<br/>
+			<table>
+				<tr>
+	<td>1</td>
+	<td><b>[Night-T]Ruzhik</b></td>
+	<td>131 000 208 900</td>
+	<td><img src="cup_g.png"/></td>
+</tr>
+<tr>
+	<td>2</td>
+	<td><b>Белочка лафки [Night-T]</b></td>
+	<td>110 301 260 941</td>
+	<td><img src="cup_s.png"/></td>
+</tr>
+<tr>
+	<td>3</td>
+	<td><b>[Night-T]Mr.Solovyov</b></td>
+	<td>107 000 208 900</td>
+	<td><img src="cup_b.png"/></td>
+</tr>
+<tr>
+	<td>4</td>
+	<td>[Night-T]Dragon</td>
+	<td>60 100 208 900</td>
+	<td><img src="cup_b_s.png"/></td>
+</tr>
+<tr>
+	<td>5</td>
+	<td>[Night-T]Andre</td>
+	<td>54 000 208 900</td>
+	<td><img src="cup_b_s.png"/></td>
+</tr>
+<tr>
+	<td>6</td>
+	<td>[Night-T]Swed</td>
+	<td>48 733 425 631</td>
+	<td><img src="cup_b_s.png"/></td>
+</tr>
+<tr>
+	<td>7</td>
+	<td>[Night-T] bye-bye</td>
+	<td>47 539 883 449</td>
+	<td><img src="cup_b_s.png"/></td>
+</tr>
+<tr>
+	<td>8</td>
+	<td>[Night-T]Oleg Kokorin</td>
+	<td>41 415 355 864</td>
+	<td><img src="cup_b_s.png"/></td>
+</tr>
+<tr>
+	<td>9</td>
+	<td>[Night-T]O4EnZLOeALOE</td>
+	<td>41 223 201 916</td>
+	<td><img src="cup_b_s.png"/></td>
+</tr>
+<tr>
+	<td>10</td>
+	<td>[Night-T] Viktor</td>
+	<td>39 168 948 286</td>
+	<td><img src="cup_b_s.png"/></td>
+</tr>
+<tr>
+	<td>11</td>
+	<td>badb. 4ever to you</td>
+	<td>35 663 184 189</td>
+	<td><img src="cup_b_s.png"/></td>
+</tr>
+<tr>
+	<td>12</td>
+	<td>[Русь] ШаМаН</td>
+	<td>32 706 092 408</td>
+	<td><img src="cup_b_s.png"/></td>
+</tr>
+<tr>
+	<td>13</td>
+	<td>[Night-T]Lemon4ik</td>
+	<td>30 553 885 889</td>
+	<td><img src="cup_b_s.png"/></td>
+</tr>
+<tr>
+	<td>14</td>
+	<td>[Night-T]BlackDeeath</td>
+	<td>30 210 971 852</td>
+	<td><img src="cup_b_s.png"/></td>
+</tr>
+<tr>
+	<td>15</td>
+	<td>[Night-T]Mrs.Solovyova</td>
+	<td>30 194 373 882</td>
+	<td><img src="cup_b_s.png"/></td>
+</tr>
+<tr>
+	<td>16</td>
+	<td>[Night-T]Empirator</td>
+	<td>30 000 048 939</td>
+	<td><img src="cup_b_s.png"/></td>
+</tr>
+<tr>
+	<td>17</td>
+	<td>[Night-T] УбЕй МеНя</td>
+	<td>29 424 228 136</td>
+	<td><img src="cup_b_s.png"/></td>
+</tr>
+<tr>
+	<td>18</td>
+	<td>[ CWO ] Димас</td>
+	<td>27 589 919 344</td>
+	<td><img src="cup_b_s.png"/></td>
+</tr>
+<tr>
+	<td>19</td>
+	<td>[Night-T]Lady of Rock</td>
+	<td>26 636 712 570</td>
+	<td><img src="cup_b_s.png"/></td>
+</tr>
+<tr>
+	<td>20</td>
+	<td>[Night-T] Escherichion</td>
+	<td>24 609 312 256</td>
+	<td><img src="cup_b_s.png"/></td>
+</tr>
+<tr>
+	<td>21</td>
+	<td>[Night-T]Chudo</td>
+	<td>24 316 400 440</td>
+	<td><img src="cup_b_s.png"/></td>
+</tr>
+<tr>
+	<td>22</td>
+	<td>[ANBS] Kronos</td>
+	<td>23 419 112 651</td>
+	<td><img src="cup_b_s.png"/></td>
+</tr>
+<tr>
+	<td>23</td>
+	<td>Василий Гомарев</td>
+	<td>23 353 064 139</td>
+	<td><img src="cup_b_s.png"/></td>
+</tr>
+<tr>
+	<td>24</td>
+	<td>[TITAN] Татьяна И-ваДовиденко</td>
+	<td>23 048 680 213</td>
+	<td><img src="cup_b_s.png"/></td>
+</tr>
+<tr>
+	<td>25</td>
+	<td>[Night-T]Andryha</td>
+	<td>22 868 270 262</td>
+	<td><img src="cup_b_s.png"/></td>
+</tr>
+<tr>
+	<td>26</td>
+	<td>[DSL] Legend_PROSTO</td>
+	<td>22 815 608 425</td>
+	<td><img src="cup_b_s.png"/></td>
+</tr>
+<tr>
+	<td>27</td>
+	<td>[ОСКАЛ] DENISKA_KD</td>
+	<td>22 781 175 560</td>
+	<td><img src="cup_b_s.png"/></td>
+</tr>
+<tr>
+	<td>28</td>
+	<td>(Diablo) Wolverine</td>
+	<td>22 577 267 447</td>
+	<td><img src="cup_b_s.png"/></td>
+</tr>
+<tr>
+	<td>29</td>
+	<td>(Diablo) S.T.A.L.K.E.R</td>
+	<td>22 560 864 356</td>
+	<td><img src="cup_b_s.png"/></td>
+</tr>
+<tr>
+	<td>30</td>
+	<td>Князь СПАРТАК</td>
+	<td>22 432 066 665</td>
+	<td><img src="cup_b_s.png"/></td>
+</tr>
+<tr>
+	<td>31</td>
+	<td>HO VO</td>
+	<td>22 363 490 228</td>
+	<td><img src="cup_b_s.png"/></td>
+</tr>
+<tr>
+	<td>32</td>
+	<td>Иван Пащенков</td>
+	<td>22 302 123 506</td>
+	<td><img src="cup_b_s.png"/></td>
+</tr>
+<tr>
+	<td>33</td>
+	<td>Кня́зь [GM]</td>
+	<td>22 298 462 850</td>
+	<td><img src="cup_b_s.png"/></td>
+</tr>
+<tr>
+	<td>34</td>
+	<td>РАЗВЕДЧИК</td>
+	<td>22 275 164 584</td>
+	<td><img src="cup_b_s.png"/></td>
+</tr>
+<tr>
+	<td>35</td>
+	<td>SK | DrunkHorse</td>
+	<td>22 199 747 793</td>
+	<td><img src="cup_b_s.png"/></td>
+</tr>
+<tr>
+	<td>36</td>
+	<td>Илья Вилков</td>
+	<td>22 196 491 100</td>
+	<td><img src="cup_b_s.png"/></td>
+</tr>
+<tr>
+	<td>37</td>
+	<td>YASTREB 7755</td>
+	<td>22 167 763 872</td>
+	<td><img src="cup_b_s.png"/></td>
+</tr>
+<tr>
+	<td>38</td>
+	<td>Владимир Телешов</td>
+	<td>21 723 335 216</td>
+	<td><img src="cup_b_s.png"/></td>
+</tr>
+<tr>
+	<td>39</td>
+	<td>[Night-T]Narkoz775</td>
+	<td>20 908 712 960</td>
+	<td><img src="cup_b_s.png"/></td>
+</tr>
+<tr>
+	<td>40</td>
+	<td>Данил Деменко</td>
+	<td>19 592 394 084</td>
+	<td><img src="cup_b_s.png"/></td>
+</tr>
+<tr>
+	<td>41</td>
+	<td>*NL* Only.Freedom</td>
+	<td>19 209 205 752</td>
+	<td><img src="cup_b_s.png"/></td>
+</tr>
+<tr>
+	<td>42</td>
+	<td>andrei belov</td>
+	<td>18 773 948 754</td>
+	<td><img src="cup_b_s.png"/></td>
+</tr>
+<tr>
+	<td>43</td>
+	<td>Мартышка Из-Джунглей</td>
+	<td>18 765 771 519</td>
+	<td><img src="cup_b_s.png"/></td>
+</tr>
+<tr>
+	<td>44</td>
+	<td>[Night-T]Madara_Uchiha</td>
+	<td>17 101 208 900</td>
+	<td><img src="cup_b_s.png"/></td>
+</tr>
+<tr>
+	<td>45</td>
+	<td>[Night-T]Lamperouge</td>
+	<td>16 673 362 462</td>
+	<td><img src="cup_b_s.png"/></td>
+</tr>
+<tr>
+	<td>46</td>
+	<td>Валерий Грибанов</td>
+	<td>16 309 959 120</td>
+	<td><img src="cup_b_s.png"/></td>
+</tr>
+<tr>
+	<td>47</td>
+	<td>[Night-T]Phoenix</td>
+	<td>16 209 246 948</td>
+	<td><img src="cup_b_s.png"/></td>
+</tr>
+<tr>
+	<td>48</td>
+	<td>lDarkAngelsl Sienna</td>
+	<td>16 205 081 514</td>
+	<td><img src="cup_b_s.png"/></td>
+</tr>
+<tr>
+	<td>49</td>
+	<td>Dmitry Prudnik</td>
+	<td>16 046 563 239</td>
+	<td><img src="cup_b_s.png"/></td>
+</tr>
+<tr>
+	<td>50</td>
+	<td>[Night-T] Chaos</td>
+	<td>14 620 751 774</td>
+	<td><img src="cup_b_s.png"/></td>
+</tr>
+<tr>
+	<td>51</td>
+	<td>[Night-T]Vika Mayorova</td>
+	<td>14 293 465 460</td>
+	<td><img src="cup_b_xs.png"/></td>
+</tr>
+<tr>
+	<td>52</td>
+	<td>SK | Maniac</td>
+	<td>12 852 435 297</td>
+	<td><img src="cup_b_xs.png"/></td>
+</tr>
+<tr>
+	<td>53</td>
+	<td>[ Русь ] Ваня Сокольв'як</td>
+	<td>12 571 286 786</td>
+	<td><img src="cup_b_xs.png"/></td>
+</tr>
+<tr>
+	<td>54</td>
+	<td>Сергей Сургеев</td>
+	<td>12 525 590 240</td>
+	<td><img src="cup_b_xs.png"/></td>
+</tr>
+<tr>
+	<td>55</td>
+	<td>[УМКАС] МЕДВЕЖОНОК</td>
+	<td>12 376 517 353</td>
+	<td><img src="cup_b_xs.png"/></td>
+</tr>
+<tr>
+	<td>56</td>
+	<td>Радополк Апездал</td>
+	<td>12 204 254 076</td>
+	<td><img src="cup_b_xs.png"/></td>
+</tr>
+<tr>
+	<td>57</td>
+	<td>Павел Отставнов</td>
+	<td>12 077 699 649</td>
+	<td><img src="cup_b_xs.png"/></td>
+</tr>
+<tr>
+	<td>58</td>
+	<td>[ГРИЗЛИ] MALISHOK kkk</td>
+	<td>11 626 114 063</td>
+	<td><img src="cup_b_xs.png"/></td>
+</tr>
+<tr>
+	<td>59</td>
+	<td>Мышь Серая</td>
+	<td>11 512 062 076</td>
+	<td><img src="cup_b_xs.png"/></td>
+</tr>
+<tr>
+	<td>60</td>
+	<td>Sparta (гефест)</td>
+	<td>11 421 765 185</td>
+	<td><img src="cup_b_xs.png"/></td>
+</tr>
+<tr>
+	<td>61</td>
+	<td>{F Angels} Николай Щербаков</td>
+	<td>11 421 045 766</td>
+	<td><img src="cup_b_xs.png"/></td>
+</tr>
+<tr>
+	<td>62</td>
+	<td>[Русь] Ganksta</td>
+	<td>11 338 532 999</td>
+	<td><img src="cup_b_xs.png"/></td>
+</tr>
+<tr>
+	<td>63</td>
+	<td>J~O~K~E~R</td>
+	<td>11 330 216 567</td>
+	<td><img src="cup_b_xs.png"/></td>
+</tr>
+<tr>
+	<td>64</td>
+	<td> NORD</td>
+	<td>11 320 776 328</td>
+	<td><img src="cup_b_xs.png"/></td>
+</tr>
+<tr>
+	<td>65</td>
+	<td>Lexa Obryadchikov</td>
+	<td>11 297 865 215</td>
+	<td><img src="cup_b_xs.png"/></td>
+</tr>
+<tr>
+	<td>66</td>
+	<td>Князь Разврата</td>
+	<td>11 295 727 012</td>
+	<td><img src="cup_b_xs.png"/></td>
+</tr>
+<tr>
+	<td>67</td>
+	<td>Руслан Піщук</td>
+	<td>11 294 352 000</td>
+	<td><img src="cup_b_xs.png"/></td>
+</tr>
+<tr>
+	<td>68</td>
+	<td>[ОСКАЛ] BǺMBǺŢòòf</td>
+	<td>11 280 264 570</td>
+	<td><img src="cup_b_xs.png"/></td>
+</tr>
+<tr>
+	<td>69</td>
+	<td>|UNDR| Fiery Sable</td>
+	<td>11 272 956 800</td>
+	<td><img src="cup_b_xs.png"/></td>
+</tr>
+<tr>
+	<td>70</td>
+	<td>[УМКАС] РЫКАРЬ</td>
+	<td>11 258 336 460</td>
+	<td><img src="cup_b_xs.png"/></td>
+</tr>
+<tr>
+	<td>71</td>
+	<td>Александр Куклин</td>
+	<td>11 252 240 188</td>
+	<td><img src="cup_b_xs.png"/></td>
+</tr>
+<tr>
+	<td>72</td>
+	<td>SK | Юлия Якшич</td>
+	<td>11 247 650 063</td>
+	<td><img src="cup_b_xs.png"/></td>
+</tr>
+<tr>
+	<td>73</td>
+	<td>Саша Суралмаша</td>
+	<td>11 237 612 624</td>
+	<td><img src="cup_b_xs.png"/></td>
+</tr>
+<tr>
+	<td>74</td>
+	<td>SK | Мстислав Лютый</td>
+	<td>11 234 741 768</td>
+	<td><img src="cup_b_xs.png"/></td>
+</tr>
+<tr>
+	<td>75</td>
+	<td>|ПАУК| Алекс Гопиенков</td>
+	<td>11 219 986 600</td>
+	<td><img src="cup_b_xs.png"/></td>
+</tr>
+<tr>
+	<td>76</td>
+	<td>|UNDR| Major</td>
+	<td>11 217 033 739</td>
+	<td><img src="cup_b_xs.png"/></td>
+</tr>
+<tr>
+	<td>77</td>
+	<td>[TITAN] жгучий перчик</td>
+	<td>11 183 912 572</td>
+	<td><img src="cup_b_xs.png"/></td>
+</tr>
+<tr>
+	<td>78</td>
+	<td>[ CWO ] Особь_669</td>
+	<td>11 171 106 592</td>
+	<td><img src="cup_b_xs.png"/></td>
+</tr>
+<tr>
+	<td>79</td>
+	<td>[ОСКАЛ] Alexei Makarenko</td>
+	<td>11 157 991 212</td>
+	<td><img src="cup_b_xs.png"/></td>
+</tr>
+<tr>
+	<td>80</td>
+	<td>{F Angels} Игорь Сан</td>
+	<td>11 147 527 845</td>
+	<td><img src="cup_b_xs.png"/></td>
+</tr>
+<tr>
+	<td>81</td>
+	<td>SK | Владимир Лупенько</td>
+	<td>11 138 437 853</td>
+	<td><img src="cup_b_xs.png"/></td>
+</tr>
+<tr>
+	<td>82</td>
+	<td>Dima Bondarchuk</td>
+	<td>11 059 796 488</td>
+	<td><img src="cup_b_xs.png"/></td>
+</tr>
+<tr>
+	<td>83</td>
+	<td>Сергей Олегович</td>
+	<td>11 053 864 391</td>
+	<td><img src="cup_b_xs.png"/></td>
+</tr>
+<tr>
+	<td>84</td>
+	<td>[ CWO ] Гарик Макухин</td>
+	<td>10 170 983 928</td>
+	<td><img src="cup_b_xs.png"/></td>
+</tr>
+<tr>
+	<td>85</td>
+	<td>Михайло Янкович</td>
+	<td>10 154 465 900</td>
+	<td><img src="cup_b_xs.png"/></td>
+</tr>
+<tr>
+	<td>86</td>
+	<td>[Night-T]CAT NOIR</td>
+	<td>9 910 980 780</td>
+	<td><img src="cup_b_xs.png"/></td>
+</tr>
+<tr>
+	<td>87</td>
+	<td>[Night-T] Asasin</td>
+	<td>9 628 823 454</td>
+	<td><img src="cup_b_xs.png"/></td>
+</tr>
+<tr>
+	<td>88</td>
+	<td>~ASG~ Hermóðr</td>
+	<td>9 623 474 721</td>
+	<td><img src="cup_b_xs.png"/></td>
+</tr>
+<tr>
+	<td>89</td>
+	<td>Ігор Янкович</td>
+	<td>9 459 141 120</td>
+	<td><img src="cup_b_xs.png"/></td>
+</tr>
+<tr>
+	<td>90</td>
+	<td>SK | Memento Mori</td>
+	<td>9 191 157 840</td>
+	<td><img src="cup_b_xs.png"/></td>
+</tr>
+<tr>
+	<td>91</td>
+	<td>Роман Дубравський</td>
+	<td>9 190 757 257</td>
+	<td><img src="cup_b_xs.png"/></td>
+</tr>
+<tr>
+	<td>92</td>
+	<td>Дмитрий Краснов</td>
+	<td>8 789 392 395</td>
+	<td><img src="cup_b_xs.png"/></td>
+</tr>
+<tr>
+	<td>93</td>
+	<td>[WoLF] JoKeR_23</td>
+	<td>8 529 504 960</td>
+	<td><img src="cup_b_xs.png"/></td>
+</tr>
+<tr>
+	<td>94</td>
+	<td>User GMfe1a04</td>
+	<td>8 103 298 500</td>
+	<td><img src="cup_b_xs.png"/></td>
+</tr>
+<tr>
+	<td>95</td>
+	<td>Gabriel Gabi</td>
+	<td>8 095 440 475</td>
+	<td><img src="cup_b_xs.png"/></td>
+</tr>
+<tr>
+	<td>96</td>
+	<td>Виталий Новацкий</td>
+	<td>8 032 871 461</td>
+	<td><img src="cup_b_xs.png"/></td>
+</tr>
+<tr>
+	<td>97</td>
+	<td>[ГРИЗЛИ] АНДРЕЙ РАЗУМЕНКО</td>
+	<td>7 915 057 541</td>
+	<td><img src="cup_b_xs.png"/></td>
+</tr>
+<tr>
+	<td>98</td>
+	<td>Денис Степанов</td>
+	<td>7 800 712 476</td>
+	<td><img src="cup_b_xs.png"/></td>
+</tr>
+<tr>
+	<td>99</td>
+	<td>Славик Тихоненко2</td>
+	<td>7 481 713 500</td>
+	<td><img src="cup_b_xs.png"/></td>
+</tr>
+<tr>
+	<td>100</td>
+	<td>вася сидоров</td>
+	<td>7 428 029 460</td>
+	<td><img src="cup_b_xs.png"/></td>
+</tr>
+</table>
+		</div>
+	</div>
+	
+	<div class="section" id="section1">
+
+	    <div class="intro">
+			<h1>Помощь 1</h1>
+			<p></p>
+		</div>
+
+	</div>
+	<div class="section" id="section2">
+		<div class="intro">
+			
+
+			<h1>Помощь 2</h1>
+			<p></p>
+			
+			
+		</div>
+	</div>
+</div>
+
+
+</body>
+</html>
